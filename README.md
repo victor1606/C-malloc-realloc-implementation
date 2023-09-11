@@ -4,7 +4,7 @@ Sisteme de Operare - Tema 2 - Memory Allocator
 
 1. os_malloc:
     - functia verifica daca dimensiunea memoriei ceruta de utilizator este mai
-    mica decat treshold-ul pentru mmap: 128 * 1024B; daca este mai mica, se
+    mica decat threshold-ul pentru mmap: 128 * 1024B; daca este mai mica, se
     utilizeaza functia sbrk; pentru size-uri mai mari se utilizeaza mmap;
 
     - in cazul primei alocari se aloca un chunk mai mare de memorie cu scopul
